@@ -49,13 +49,31 @@ a,i{
 /* NAVBAR */
 #navbar{
     padding: 10px;
-    margin: 10px auto;
+    margin: 10px auto; 
 }
 #navbar a {
-    width: 80px;
+    width: 80px; 
     color: #444;
 }
 #navbar a:hover{
     color: #c18696;
 
+}
+
+/* IMAGE BANNER */
+
+.main-image{
+    height: 400px;
+    background-image: url("../img/g_1.jpg");
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
 }
